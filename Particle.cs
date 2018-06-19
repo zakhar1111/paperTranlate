@@ -9,6 +9,7 @@ namespace Particals
     {
         public static Random Generator = new Random();
 
+
         float X,Y, VX, VY;
         int scl, alpha;
 
