@@ -1,5 +1,5 @@
 # paperTranlate
 here is filed follow examples:
-  - translation technical paper.
-  - WinForm application.
+  - translation technical paper - branch master
+  - WinForm application - branch 1
   
