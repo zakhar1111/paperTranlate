@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Particals", "Particals.csproj", "{1EDC3229-A0FE-4EBD-BDEB-9A33F69DD385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParticalsTest", "ParticalsTest\ParticalsTest.csproj", "{C61CAFB4-4099-49FE-8CDC-C3B806C87347}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1EDC3229-A0FE-4EBD-BDEB-9A33F69DD385} = {1EDC3229-A0FE-4EBD-BDEB-9A33F69DD385}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{1EDC3229-A0FE-4EBD-BDEB-9A33F69DD385}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EDC3229-A0FE-4EBD-BDEB-9A33F69DD385}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EDC3229-A0FE-4EBD-BDEB-9A33F69DD385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61CAFB4-4099-49FE-8CDC-C3B806C87347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61CAFB4-4099-49FE-8CDC-C3B806C87347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61CAFB4-4099-49FE-8CDC-C3B806C87347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61CAFB4-4099-49FE-8CDC-C3B806C87347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
